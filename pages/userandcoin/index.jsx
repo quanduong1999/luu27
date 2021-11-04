@@ -79,9 +79,9 @@ const UserAndCoin = () => {
             <tr>
               <th>Name</th>
               <th>Username</th>
-              <th>Phone</th>
+              {/* <th>Phone</th> */}
               <th>Tiền VND</th>
-              <th>Action</th>
+              <th style={{width: "20%"}}>Action</th>
             </tr>
           </thead>
           <tbody id="table">
@@ -89,9 +89,9 @@ const UserAndCoin = () => {
               <tr key={userandcoinData.id}>
                 <td>{userandcoinData.customer.name}</td>
                 <td>{userandcoinData.username}</td>
-                <td>{userandcoinData.customer.phonenumber}</td>
+                {/* <td>{userandcoinData.customer.phonenumber}</td> */}
                 <td>{userandcoinData.vi.xu}</td>
-                <td style={{ width: "35%" }}>
+                <td style={{ width: "35%", padding: "0rem !important",   }}>
                   <Button
                     onClick={() => {
                       setLgShowCoin(true);

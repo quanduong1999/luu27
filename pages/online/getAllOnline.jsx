@@ -40,7 +40,7 @@ const GetAllOnline = () => {
               <th>Nội dung</th>
               <th>Thông tin thêm</th>
               <th>Ảnh đại diện</th>
-              <th>Action</th>
+              <th style={{width: "20%"}}>Action</th>
             </tr>
           </thead>
           <tbody id="table">

@@ -58,7 +58,7 @@ const GetAllPT = () => {
               <th>Số điện thoại</th>
               <th>Ảnh đại diện</th>
               <th>Thông tin thêm</th>
-              <th>Action</th>
+              <th style={{width: "20%"}}>Action</th>
             </tr>
           </thead>
           <tbody id="table">

@@ -58,7 +58,7 @@ const GetAllSchedule = () => {
               <th>Giá</th>
               <th>Số lượng</th>
               <th>Địa điểm</th>
-              <th>Action</th>
+              <th style={{width: "20%"}}>Action</th>
             </tr>
           </thead>
           <tbody id="table">

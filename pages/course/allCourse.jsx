@@ -56,7 +56,7 @@ const AllCourse = () => {
               <th>Ảnh đại diện</th>
               <th>Số lượng</th>
               <th>Địa chỉ</th>
-              <th>Action</th>
+              <th style={{width: "20%"}}>Action</th>
             </tr>
           </thead>
           <tbody id="table">

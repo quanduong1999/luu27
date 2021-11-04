@@ -51,7 +51,7 @@ const GetAllServiceSport = () => {
               <th>Nội dung</th>
               <th>Ảnh</th>
               <th>Giá</th>
-              <th>Action</th>
+              <th style={{width: "20%"}}>Action</th>
             </tr>
           </thead>
           <tbody id="table">
